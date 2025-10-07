@@ -1,5 +1,11 @@
+import TopNav from "./components/top-nav";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <TopNav />
+    </>
+  );
 }
 
 export default App;
