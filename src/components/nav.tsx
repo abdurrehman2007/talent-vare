@@ -2,19 +2,18 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
-    Sheet,
-    SheetContent,
-    SheetHeader,
-    SheetTitle,
-    SheetTrigger,
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu, Search } from "lucide-react";
 
-export default function TopNav() {
+export default function Nav() {
   return (
-    <header className="sticky top-0 z-40 border-b bg-card/80 backdrop-blur supports-[backdrop-filter]:bg-card/60">
-      <div className="mx-auto flex h-17 max-w-[1200px] items-center gap-3 px-4">
-        {/* mobile menu trigger */}
+    <header className="sticky top-0 z-40 border-b bg-white backdrop-blur supports-[backdrop-filter]:bg-card/60">
+      <div className="mx-auto flex h-17 max-w-[1400px] items-center gap-3 px-4">
         <Sheet>
           <SheetTrigger asChild>
             <Button
@@ -31,7 +30,6 @@ export default function TopNav() {
               <SheetTitle>Navigation</SheetTitle>
             </SheetHeader>
             <div className="space-y-4 p-4">
-              {/* mobile search */}
               <div className="flex items-center gap-2 rounded-md border border-transparent bg-[#F6F9FF] px-5 py-1">
                 <Search className="size-4 text-muted-foreground" />
                 <Input
@@ -55,7 +53,6 @@ export default function TopNav() {
           </SheetContent>
         </Sheet>
 
-        {/* logo and desktop nav */}
         <div className="flex items-center gap-3">
           <div className="grid place-items-center">
             <img src="images/logo.svg" alt="Logo" className="h-9 w-9" />
@@ -71,7 +68,6 @@ export default function TopNav() {
           </nav>
         </div>
 
-        {/* desktop search */}
         <div className="ml-auto hidden items-center gap-2 rounded-md border border-transparent bg-[#F6F9FF] px-5 py-1 md:flex">
           <Search className="size-4 text-muted-foreground" />
           <Input
@@ -83,7 +79,7 @@ export default function TopNav() {
         <Button className="ml-2 hidden h-9 bg-primary px-5 py-3 text-primary-foreground md:inline-flex">
           Resume Builder
         </Button>
-        <div className="ml-auto flex items-center gap-2">
+        <div className="ml-auto md:ml-1 flex items-center gap-2">
           <Avatar className="size-8">
             <AvatarImage src="/placeholder-user.jpg" alt="User avatar" />
             <AvatarFallback className="bg-secondary">A</AvatarFallback>

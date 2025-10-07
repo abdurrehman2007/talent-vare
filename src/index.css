@@ -1,6 +1,14 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: NeueHaas;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/NeueHaas.ttf") format("ttf");
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -43,7 +51,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: oklch(96.715% 0.00011 271.152);
   --foreground: oklch(0.5818 0.0363 271.91);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -117,4 +125,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  font-family: NeueHaas, sans-serif;
 }

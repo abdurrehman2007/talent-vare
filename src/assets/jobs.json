@@ -1,0 +1,233 @@
+{
+  "featuredJobs": [
+    {
+      "title": "UX Designer",
+      "company": "CreativeLabs",
+      "companyLogo": "https://example.com/logos/creativelabs.png",
+      "location": "Austin, TX",
+      "createdAt": "2025-09-30T11:45:00Z",
+      "applicants": 19,
+      "isFeatured": true
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "TechCorp",
+      "companyLogo": "https://example.com/logos/techcorp.png",
+      "location": "San Francisco, CA",
+      "createdAt": "2025-10-01T10:00:00Z",
+      "applicants": 45,
+      "isFeatured": true
+    },
+    {
+      "title": "Product Manager",
+      "company": "Innovate Solutions",
+      "companyLogo": "https://example.com/logos/innovatesolutions.png",
+      "location": "New York, NY",
+      "createdAt": "2025-09-28T14:30:00Z",
+      "applicants": 32,
+      "isFeatured": true
+    },
+    {
+      "title": "Data Scientist",
+      "company": "DataWorks",
+      "companyLogo": "https://example.com/logos/dataworks.png",
+      "location": "Boston, MA",
+      "createdAt": "2025-10-02T09:15:00Z",
+      "applicants": 28,
+      "isFeatured": true
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "CloudSync",
+      "companyLogo": "https://example.com/logos/cloudsync.png",
+      "location": "Seattle, WA",
+      "createdAt": "2025-10-03T16:20:00Z",
+      "applicants": 37,
+      "isFeatured": true
+    }
+  ],
+  "recommendedJobs": [
+    {
+      "title": "Frontend Developer",
+      "company": "Webify",
+      "companyLogo": "https://example.com/logos/webify.png",
+      "location": "Remote",
+      "createdAt": "2025-09-25T08:00:00Z",
+      "applicants": 62,
+      "isFeatured": false
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "Nexlify",
+      "companyLogo": "https://example.com/logos/nexlify.png",
+      "location": "Chicago, IL",
+      "createdAt": "2025-09-26T12:10:00Z",
+      "applicants": 41,
+      "isFeatured": false
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "AI Innovations",
+      "companyLogo": "https://example.com/logos/aiinnovations.png",
+      "location": "Palo Alto, CA",
+      "createdAt": "2025-09-27T15:30:00Z",
+      "applicants": 53,
+      "isFeatured": false
+    },
+    {
+      "title": "Mobile App Developer",
+      "company": "AppCrafters",
+      "companyLogo": "https://example.com/logos/appcrafters.png",
+      "location": "Denver, CO",
+      "createdAt": "2025-09-28T09:45:00Z",
+      "applicants": 29,
+      "isFeatured": false
+    },
+    {
+      "title": "Cybersecurity Analyst",
+      "company": "SecureNet",
+      "companyLogo": "https://example.com/logos/securenet.png",
+      "location": "Washington, DC",
+      "createdAt": "2025-09-29T13:20:00Z",
+      "applicants": 34,
+      "isFeatured": false
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "CodeZap",
+      "companyLogo": "https://example.com/logos/codezap.png",
+      "location": "Miami, FL",
+      "createdAt": "2025-09-30T10:15:00Z",
+      "applicants": 48,
+      "isFeatured": false
+    },
+    {
+      "title": "Cloud Architect",
+      "company": "SkyTech",
+      "companyLogo": "https://example.com/logos/skytech.png",
+      "location": "Remote",
+      "createdAt": "2025-10-01T11:00:00Z",
+      "applicants": 25,
+      "isFeatured": false
+    },
+    {
+      "title": "Business Analyst",
+      "company": "GrowEasy",
+      "companyLogo": "https://example.com/logos/groweasy.png",
+      "location": "Houston, TX",
+      "createdAt": "2025-10-02T14:50:00Z",
+      "applicants": 22,
+      "isFeatured": false
+    },
+    {
+      "title": "QA Engineer",
+      "company": "TestRight",
+      "companyLogo": "https://example.com/logos/testright.png",
+      "location": "Phoenix, AZ",
+      "createdAt": "2025-10-03T08:30:00Z",
+      "applicants": 17,
+      "isFeatured": false
+    },
+    {
+      "title": "Technical Writer",
+      "company": "DocuWorld",
+      "companyLogo": "https://example.com/logos/docuworld.png",
+      "location": "Portland, OR",
+      "createdAt": "2025-10-04T16:00:00Z",
+      "applicants": 12,
+      "isFeatured": false
+    }
+  ],
+  "latestJobs": [
+    {
+      "title": "Software Engineer",
+      "company": "TechTrend",
+      "companyLogo": "https://example.com/logos/techtrend.png",
+      "location": "Los Angeles, CA",
+      "createdAt": "2025-10-07T09:00:00Z",
+      "applicants": 10,
+      "isFeatured": false
+    },
+    {
+      "title": "Project Manager",
+      "company": "PlanWise",
+      "companyLogo": "https://example.com/logos/planwise.png",
+      "location": "Atlanta, GA",
+      "createdAt": "2025-10-07T10:30:00Z",
+      "applicants": 8,
+      "isFeatured": false
+    },
+    {
+      "title": "Data Analyst",
+      "company": "InsightCorp",
+      "companyLogo": "https://example.com/logos/insightcorp.png",
+      "location": "Remote",
+      "createdAt": "2025-10-07T11:15:00Z",
+      "applicants": 15,
+      "isFeatured": false
+    },
+    {
+      "title": "UI Designer",
+      "company": "PixelCraft",
+      "companyLogo": "https://example.com/logos/pixelcraft.png",
+      "location": "San Diego, CA",
+      "createdAt": "2025-10-07T12:45:00Z",
+      "applicants": 7,
+      "isFeatured": false
+    },
+    {
+      "title": "Network Engineer",
+      "company": "ConnectSphere",
+      "companyLogo": "https://example.com/logos/connectsphere.png",
+      "location": "Dallas, TX",
+      "createdAt": "2025-10-07T14:00:00Z",
+      "applicants": 9,
+      "isFeatured": false
+    },
+    {
+      "title": "AI Research Scientist",
+      "company": "NeuraLab",
+      "companyLogo": "https://example.com/logos/neuralab.png",
+      "location": "Cambridge, MA",
+      "createdAt": "2025-10-07T15:20:00Z",
+      "applicants": 12,
+      "isFeatured": false
+    },
+    {
+      "title": "Site Reliability Engineer",
+      "company": "UptimeTech",
+      "companyLogo": "https://example.com/logos/uptimetech.png",
+      "location": "Remote",
+      "createdAt": "2025-10-07T16:30:00Z",
+      "applicants": 6,
+      "isFeatured": false
+    },
+    {
+      "title": "Marketing Specialist",
+      "company": "BrandBoost",
+      "companyLogo": "https://example.com/logos/brandboost.png",
+      "location": "Chicago, IL",
+      "createdAt": "2025-10-07T17:00:00Z",
+      "applicants": 11,
+      "isFeatured": false
+    },
+    {
+      "title": "Database Administrator",
+      "company": "DataSafe",
+      "companyLogo": "https://example.com/logos/datasafe.png",
+      "location": "Raleigh, NC",
+      "createdAt": "2025-10-07T18:10:00Z",
+      "applicants": 5,
+      "isFeatured": false
+    },
+    {
+      "title": "Content Strategist",
+      "company": "Storyline",
+      "companyLogo": "https://example.com/logos/storyline.png",
+      "location": "Remote",
+      "createdAt": "2025-10-07T19:00:00Z",
+      "applicants": 4,
+      "isFeatured": false
+    }
+  ]
+}
